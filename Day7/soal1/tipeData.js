@@ -1,4 +1,4 @@
-let nilai = q;
+let nilai = "Hello World";
 
 if(typeof nilai === "string"){
     if(typeof nilai === "string" && nilai.length === 0){
