@@ -39,10 +39,10 @@ END
 let angka1 = 3;
 let angka2 = 3;
 
-if(angka1 === angka2){
+if (angka1 === angka2) {
     console.log(-1);
-}else if(angka1 > angka2){
+} else if (angka1 > angka2) {
     console.log(false);
-}else{
+} else {
     console.log(true);
 }
