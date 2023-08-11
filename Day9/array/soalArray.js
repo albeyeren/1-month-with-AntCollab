@@ -58,7 +58,7 @@ function ganjilGenap(plat) {
         return 'data tidak ditemukan';
     }
 
-    if (plat === undefined) {
+    if (!plat) {
         return 'invalid data';
     }
 
@@ -79,10 +79,8 @@ function ganjilGenap(plat) {
         return `plat genap sebanyak ${genap} dan plat ganjil sebanyak ${ganjil}`;
     } else if (genap > 0) {
         return `plat genap sebanyak ${genap} dan plat ganjil tidak ditemukan`;
-    } else if (ganjil > 0) {
-        return `plat ganjil sebanyak ${ganjil} dan plat genap tidak ditemukan`;
     } else {
-        return "plat tidak ditemukan";
+        return `plat ganjil sebanyak ${ganjil} dan plat genap tidak ditemukan`;
     }
 };
 
